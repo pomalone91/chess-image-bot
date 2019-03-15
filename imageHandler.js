@@ -1,6 +1,6 @@
 //var x = document.getElementById("chess-image"); .files[0];
 //console.log(x);
-const bodySelector = document.getElement('body'); // does this work?
+const bodySelector = document.getElementById('body'); // does this work?
 const fileSelect = document.getElementById('chess-image');
 fileSelect.addEventListener("change", function (e) {
   displayFile(fileSelect.files[0]);
